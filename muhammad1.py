@@ -1,16 +1,17 @@
+from collections import defaultdict
 from matplotlib.cm import get_cmap
-from pivottablejs import pivot_ui
 from pivottablejs import pivot_ui
 from st_aggrid import AgGrid
 from st_aggrid import AgGrid, GridOptionsBuilder
 from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode, DataReturnMode
+from st_aggrid import AgGrid, GridOptionsBuilder, JsCode
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, ColumnsAutoSizeMode
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 from st_aggrid import JsCode, AgGrid, GridOptionsBuilder
 from st_aggrid.shared import ColumnsAutoSizeMode
 from st_aggrid.shared import GridUpdateMode
-import altair as alt  ##https://altair-viz.github.io/
+import altair as alt ##https://altair-viz.github.io/
 import datetime
 import matplotlib
 import matplotlib as mb
@@ -26,47 +27,8 @@ import streamlit as st
 import streamlit.components.v1 as components
 matplotlib.use('Agg') #서버에서, 화면에 표시하기 위해서 필요
 
-import numpy as np
-import streamlit as st
-import pandas as pd
-from st_aggrid import AgGrid, GridOptionsBuilder
-import streamlit as st
-import pandas as pd
-from st_aggrid import AgGrid, GridOptionsBuilder
-from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode, DataReturnMode
-import streamlit as st
-import pandas as pd
-from st_aggrid import AgGrid, GridOptionsBuilder
-import streamlit as st
-import numpy as np
-import pandas as pd
-from st_aggrid import AgGrid, GridOptionsBuilder
-from st_aggrid import AgGrid, GridOptionsBuilder, JsCode
-from collections import defaultdict
-#from st_aggrid.shared import getAllColumnProps, getAllGridOptions
-#from st_aggrid import getAllColumnProps, getAllGridOptions
-from st_aggrid import AgGrid, GridOptionsBuilder
 
-import numpy as np
-import streamlit as st
-import pandas as pd
-from st_aggrid import AgGrid, GridOptionsBuilder
-import streamlit as st
-import pandas as pd
-from st_aggrid import AgGrid, GridOptionsBuilder
-from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode, DataReturnMode
-import streamlit as st
-import pandas as pd
-from st_aggrid import AgGrid, GridOptionsBuilder
-import streamlit as st
-import numpy as np
-import pandas as pd
-from st_aggrid import AgGrid, GridOptionsBuilder
-from st_aggrid import AgGrid, GridOptionsBuilder, JsCode
-from collections import defaultdict
-#from st_aggrid.shared import getAllColumnProps, getAllGridOptions
-#from st_aggrid import getAllColumnProps, getAllGridOptions
-from st_aggrid import AgGrid, GridOptionsBuilder
+
 
 
 
