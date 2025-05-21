@@ -151,7 +151,7 @@ st.html("""
 )
 
 
-@st.cache_resource
+#@st.cache_resource
 def load_data():
     url12 = "https://docs.google.com/spreadsheets/d/1j4zRBnAb1nXi4NMMC8NEnEZMBVTW2oje/edit?pli=1&gid=92713901#gid=92713901"
     file_id122 = url12.split("/")[-2]
